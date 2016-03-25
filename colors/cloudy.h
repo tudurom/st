@@ -9,27 +9,27 @@ by tudurom.
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"#273941",
-	"#a66363",
-	"#63a690",
-	"#a6a663",
-	"#6385a6",
-	"#bf9c86",
-	"#63a69b",
-	"#c0c5ce",
+  /* 8 normal colors */
+  "#273941",
+  "#a66363",
+  "#63a690",
+  "#a6a663",
+  "#6385a6",
+  "#bf9c86",
+  "#63a69b",
+  "#c0c5ce",
 
-	/* 8 bright colors */
-	"#456472",
-	"#c27171",
-	"#6dc2a3",
-	"#bfc271",
-	"#719bc2",
-	"#bf9c86",
-	"#71c2af",
-	"#eff1f5",
+  /* 8 bright colors */
+  "#456472",
+  "#c27171",
+  "#6dc2a3",
+  "#bfc271",
+  "#719bc2",
+  "#bf9c86",
+  "#71c2af",
+  "#eff1f5",
 
-	[255] = 0,
+  [255] = 0,
 };
 
 
