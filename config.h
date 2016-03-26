@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-#include "colors/woody.h"
+#include "colors/cloudy.h"
 
 static char font[] = "Metis,Symbola";
 static int bold_font = 0;
