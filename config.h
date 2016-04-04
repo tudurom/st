@@ -37,8 +37,8 @@ static unsigned int tripleclicktimeout = 600;
 static bool allowaltscreen = true;
 
 /* frames per second st should at maximum draw to the screen */
-static unsigned int xfps = 3000;
-static unsigned int actionfps = 360;
+static unsigned int xfps = 3600;
+static unsigned int actionfps = 3600;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
