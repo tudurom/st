@@ -8,7 +8,7 @@
 
 #include "colors/designr.h"
 
-static char font[] = "Metis,Symbola";
+static char font[] = "terminal,Symbola";
 static int bold_font = 0;
 static int borderpx = 20;
 static char shell[] = "/bin/mksh";
@@ -19,7 +19,9 @@ static char stty_args[] = "stty raw -echo -iexten echonl";
 static char vtiden[] = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 0.4;
+//static float cwscale = 0.4;
+//static float chscale = 1.;
+static float cwscale = 1.;
 static float chscale = 1.;
 
 /*
