@@ -8,7 +8,7 @@
 
 #include "colors/designr.h"
 
-static char font[] = "terminal,Symbola";
+static char font[] = "terminal:pixelsize=12:antialias=false:autohint=false,Symbola";
 static int bold_font = 0;
 static int borderpx = 20;
 static char shell[] = "/bin/mksh";
