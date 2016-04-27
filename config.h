@@ -8,7 +8,7 @@
 
 #include "colors/designr.h"
 
-static char font[] = "terminal:pixelsize=12:antialias=false:autohint=false,Symbola";
+static char font[] = "terminal:pixelsize=10:antialias=false:autohint=false,Symbola";
 static int bold_font = 0;
 static int borderpx = 20;
 static char shell[] = "/bin/mksh";
@@ -21,8 +21,8 @@ static char vtiden[] = "\033[?6c";
 /* Kerning / character bounding-box multipliers */
 //static float cwscale = 0.4;
 //static float chscale = 1.;
-static float cwscale = 1.;
-static float chscale = 1.;
+static float cwscale = 1.3;
+static float chscale = 1.3;
 
 /*
  * word delimiter string
