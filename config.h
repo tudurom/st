@@ -6,9 +6,9 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-#include "colors/designr.h"
+#include "colors/cloudy.h"
 
-static char font[] = "metis:pixelsize=11:antialias=false:autohint=false,Symbola";
+static char font[] = "erusfont:pixelsize=11:antialias=false:autohint=false,Symbola";
 static int bold_font = 0;
 static int borderpx = 20;
 static char shell[] = "/bin/mksh";
@@ -19,7 +19,7 @@ static char stty_args[] = "stty raw -echo -iexten echonl";
 static char vtiden[] = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 0.4;
+static float cwscale = 1.;
 static float chscale = 1.;
 
 /*
