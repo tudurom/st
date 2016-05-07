@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-#include "colors/cloudy.h"
+#include "colors/moonbow.h"
 
 static char font[] = "erusfont:pixelsize=11:antialias=false:autohint=false,Symbola";
 static int bold_font = 0;
