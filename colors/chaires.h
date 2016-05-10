@@ -1,29 +1,29 @@
 static const char *colorname[] = {
   /* 8 normal colors */
-  "#1b2227",
-  "#785561",
-  "#58614f",
-  "#7e735a",
-  "#424a64",
-  "#4d3e4c",
-  "#3c5a5d",
-  "#7b8695",
+  "#3d3d49",
+  "#a7664a",
+  "#6e8c6e",
+  "#cba264",
+  "#535f6b",
+  "#775a62",
+  "#576e68",
+  "#c3c3c6",
 
   /* 8 brightcolors */
-  "#374650",
-  "#8a6270",
-  "#6d7762",
-  "#8d8063",
-  "#626c94",
-  "#665064",
-  "#548084",
-  "#94a1b3",
+  "#4b4b56",
+  "#a7664a",
+  "#6e8c6e",
+  "#cba264",
+  "#535f6b",
+  "#775a62",
+  "#576e68",
+  "#c3c3c6",
 
   [255] = 0,
 
   /* background and foreground colors */
-  [256] = "#1b2227",
-  [257] = "#7b8695"
+  [256] = "#383844",
+  [257] = "#c3c3c6"
 };
 
 /* Default colors for foreground, background and cursor */
