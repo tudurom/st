@@ -8,7 +8,7 @@
 
 #include "colors/moonbow.h"
 
-static char font[] = "lemon:pixelsize=10:antialias=false:autohint=false,Symbola";
+static char font[] = "gohufont:pixelsize=14:antialias=false:autohint=false,Symbola";
 static int bold_font = 0;
 static int borderpx = 20;
 static char shell[] = "/bin/mksh";
@@ -19,7 +19,7 @@ static char stty_args[] = "stty raw -echo -iexten echonl";
 static char vtiden[] = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = .5;
+static float cwscale = 1.;
 static float chscale = 1.;
 
 /*
