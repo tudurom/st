@@ -6,9 +6,9 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-#include "colors/moonbow.h"
+#include "colors/thunderstorm.h"
 
-static char font[] = "gohufont:pixelsize=11:antialias=false:autohint=false,Symbola";
+static char font[] = "terminus:pixelsize=16:antialias=false:autohint=false,Symbola";
 static int bold_font = 0;
 static int borderpx = 20;
 static char shell[] = "/bin/mksh";

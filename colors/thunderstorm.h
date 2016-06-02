@@ -22,8 +22,8 @@ static const char *colorname[] = {
   [255] = 0,
 
   /* background and foreground colors */
-  [256] = "#273941",
-  [257] = "#1d2a30"
+  [256] = "#1d2a30",
+  [257] = "#c0c5ce"
 };
 
 /* Default colors for foreground, background and cursor */
