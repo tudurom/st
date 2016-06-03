@@ -8,7 +8,7 @@
 
 #include "colors/thunderstorm.h"
 
-static char font[] = "terminus:pixelsize=16:antialias=false:autohint=false,Symbola";
+static char font[] = "gohufont:pixelsize=14:antialias=false:autohint=false,Symbola";
 static int bold_font = 0;
 static int borderpx = 20;
 static char shell[] = "/bin/mksh";
